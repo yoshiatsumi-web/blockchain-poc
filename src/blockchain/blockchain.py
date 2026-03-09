@@ -185,3 +185,9 @@ class Blockchain:
             print()
 
 # ... rest of the __main__ simulation code remains unchanged ...
+if __name__ == "__main__":
+    blockchain = Blockchain()
+    blockchain.create_transaction("Tom", "Bob", 20)
+    blockchain.create_transaction("Tom", "Charlie", 10)
+    blockchain.mine_pending_transactions("Yoshi")
+    blockchain.print_chain()
