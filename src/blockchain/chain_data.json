@@ -1,0 +1,10 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2026-03-09T17:00:11.971778",
+    "data": "Genesis Block",
+    "previous_hash": "0",
+    "nonce": 0,
+    "hash": "42a6a797473443ff4fd4dc462a55ed413a7a9692789574396b2fca7a6e3265e9"
+  }
+]
